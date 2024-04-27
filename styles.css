@@ -65,3 +65,30 @@ nav a {
   margin-top: 20px;
   margin-right: 20px;
 }
+
+/* ******************************************************************** */
+
+.about-me {
+  background-color: #fff8f3;
+  margin: 60px 100px;
+  padding: 80px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-container {
+  max-width: 500px;
+}
+.about-title {
+  font-size: large;
+  font-weight: 600;
+}
+.about-description {
+  font-size: small;
+  font-weight: 400;
+}
+.about-details {
+  display: flex;
+  gap: 20px;
+}
