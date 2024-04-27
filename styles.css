@@ -3,7 +3,10 @@ body {
 }
 header {
   background-color: #fff8f3;
-  padding: 0 0 100px 0;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 690px;
 }
 nav h3 {
   font-size: xx-large;
@@ -53,4 +56,12 @@ nav a {
 }
 .content img {
   width: 400px;
+}
+.banner {
+  max-width: 700px;
+  margin-top: 100px;
+}
+.banner button {
+  margin-top: 20px;
+  margin-right: 20px;
 }
