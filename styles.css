@@ -1,6 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+header {
+  background-color: #fff8f3;
+  padding: 0 0 100px 0;
+}
 nav h3 {
   font-size: xx-large;
   font-weight: 800;
@@ -15,16 +19,16 @@ nav h3 {
   background-color: #fd6e0a;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 20px 30px;
+  border-radius: 10px;
   cursor: pointer;
   font-weight: 550;
+  font-size: large;
 }
 nav {
   display: flex;
   justify-content: space-between;
   padding: 2px 100px;
-  margin: 0 20px;
   align-items: center;
 }
 nav li {
@@ -38,4 +42,15 @@ nav ul {
 nav a {
   text-decoration: none;
   color: black;
+}
+
+/* ******************************************************************* */
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.content img {
+  width: 400px;
 }
